@@ -1,0 +1,9 @@
+a. Chạy lệnh git init: Khởi tạo git
+b. Tạo file file1.txt, file2.txt, oops/file3.txt.: tạo file 
+c. Thêm file .gitignore, thêm vào 2 dòng:
+   i. file1.txt
+   ii. oops/
+Tạo file .gitignore và thêm vào các dòng là các file không cần commit
+d. Chạy lệnh: git add . thêm file2.txt vào vùng staging
+e. Chạy lệnh: git commit -m "init project": commit file2.txt vào vùng repository
+
