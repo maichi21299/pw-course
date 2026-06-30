@@ -14,13 +14,15 @@ for (let i = 2; i <= 9; i++) {
 //Bài 3
 const arr = [];
 for (let i = 1; i <= 99; i++) {
-    arr.push(i);
+    if (i%2===1) {
+            arr.push(i);
+
+    }
 }
 console.log(arr);
 
 //Bài 4
-const email = [];
-for (i = 1; i <= 10; i++) {
+for ( let i = 1; i <= 10; i++) {
     console.log(`user${i}@gmail.com`);
 }
 

@@ -1,9 +1,8 @@
 //Bài 1
 function multiply(a, b) {
-    console.log(a * b);
+    return a * b;
 }
-multiply(2, 2);
-multiply(3, 6);
+console.log(multiply(2, 2));
 
 //Bài 2
 function findMin(a, b, c) {
@@ -26,7 +25,7 @@ const students = [
 function getTopStudents(students, threshold) {
 
     let result = [];
-    for (i = 0; i < students.length; i++) {
+    for (let i = 0; i < students.length; i++) {
         if (students[i].score >= threshold) {
             result.push(students[i].name);
         }
